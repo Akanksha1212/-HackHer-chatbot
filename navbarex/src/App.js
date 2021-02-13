@@ -62,14 +62,10 @@ function Frame3(props) {
         <div className="tutoring roboto-normal-black-36px">{tutoring}</div>
         <div className="address roboto-normal-black-36px">{address}</div>
         <div className="address-1 roboto-normal-black-36px">{address2}</div>
-        <img className="line-1" src={line1} />
-        <img className="line-2" src={line2} />
-        <img className="line-3" src={line3} />
-        <img className="line-4" src={line4} />
+      
         <div className="driving roboto-normal-black-36px">{driving}</div>
         <div className="address-2 roboto-normal-black-36px">{address3}</div>
-        <img className="line-5" src={line5} />
-        <img className="line-6" src={line6} />
+       
         <div className="text-4 roboto-normal-black-36px">{text4}</div>
         <div className="text-5 roboto-normal-black-36px">{text5}</div>
         <div className="text-6 roboto-normal-black-36px">{text6}</div>
@@ -96,7 +92,10 @@ const frame3Data = {
     place: "Contact",
     anjaliSridharan: "Anjali Sridharan",
     skills2: "Skills",
-    
+    childcare: "Childcare",
+    tutoring: "Tutoring",
+    driving: "Driving",
+   
     schedule2: "Schedule",
     text3: "Caregiver.",
     place2: "Contact",
